@@ -1,7 +1,9 @@
 package com.softure.rendavariavel.Ipo.service;
 
 import com.softure.rendavariavel.Ipo.helper.CalculoValorHelper;
+import org.springframework.stereotype.Service;
 
+@Service
 public class IpoService {
 
     public Double getValorMinimo(Long quantidadeMinima, Double precoUnitario) {
